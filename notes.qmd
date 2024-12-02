@@ -1,0 +1,272 @@
+---
+title: Pika-Quiz Notes
+format: html
+---
+
+# Introduction
+With the introduction of the infamous mascot of the Pokémon franchise, <span style="color: orange;">Pikachu</span>, in the original Gen 1 games, Pokémon has not been shy about replicating the iconic electric mouse in subsequent generations. While all subsequent designs share a common basis being iterations of our beloved electric rodent, a closer analysis reveals that each "pika-clone" (as they are colloquially known) has developed its own unique niche within the Pokémon universe and the hearts of it's fans.
+
+## Pika-Clone Notes
+
+### Pikachu (Gen 1)
+- **Type**: <span style="color: #fc3;">Electric</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #ad9551;">HeartGold</span>**: This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.
+  * **<span style="color: #db8624;">Ultra Sun</span>**: Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.
+- **Traits**: Charismatic, loyal, authentic
+- **Notes**: Pikachu is the heart and soul of the Pokémon franchise, earning its place as the iconic mascot and Ash’s loyal partner for over two decades. Known for its charisma and authenticity, Pikachu lights up any room (or forest!) it enters. Sociable and dependable, it’s the kind of Pokémon you can count on during tough times—always stepping up when it matters most. Those who align with Pikachu are natural-born leaders: confident, bold, and respectful of others. They thrive in social settings, effortlessly balancing being the life of the party with a deep sense of responsibility and care for those around them. Open-minded and intelligent, Pikachu’s embrace a wide range of perspectives, seeking harmony and understanding wherever they go. As the blueprint for generations of pika-clones, Pikachu proves that true leadership is about lifting others up while staying genuine to yourself.
+
+### Pichu (Gen 2)
+- **Type**: <span style="color: #fc3;">Electric</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #c03028;">FireRed</span>**: Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.
+  * **<span style="color: #db8624;">Sun</span>**: It is not yet skilled at controlling electricity. If you take your eyes off it, it may shock itself.
+- **Traits**: Clumsy, immature, energetic
+- **Notes**: As the baby version of Pikachu, Pichu is full of boundless energy and curiosity, but it’s also a bit clumsy and unpolished. Its inexperience often leads to naive or reckless behavior—like accidentally shocking itself—but that’s all part of its charm. Pichu’s have an open-hearted innocence, making them unassuming and quick to connect with others. Much like children, they wear their emotions on their sleeves and aren’t afraid to speak their mind, even if it’s not always tactful. Their impulsiveness can sometimes get them into trouble, but it’s driven by a pure sense of wonder and an eagerness to explore the world. Deep down, Pichu’s just want to learn and grow, and their willingness to act on what they believe is right makes them lovable, if a bit unpredictable. Pichu reminds us that mistakes are part of growing, and that enthusiasm and sincerity are gifts in their own right.
+
+### Plusle/Minun (Gen 3)
+- **Type**: <span style="color: #fc3;">Electric</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #c03028;">Ruby</span>**: Plusle always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this Pokémon shorts out its body to create the crackling noises of sparks to show its joy.
+  * **<span style="color: #c03028;">Ruby</span>**: Minun is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.
+- **Traits**: Compassionate, encouraging, selfless, collaborative
+- **Notes**: Plusle and Minun are the ultimate cheerleaders, thriving on teamwork and uplifting those around them. Their close bond highlights their codependence, making them the most social of the pika-clones. They love doing things together and can struggle with loneliness or separation anxiety when left alone. Plusle and Minun are the friends who always have your back, encouraging you with sparks of joy and positivity. They’re often the “mom” figures of the group, making sure everyone is included, hydrated, and having a good time. While they may seek validation from others, they’re just as quick to give it back, creating an environment of mutual support and care. Their selflessness can sometimes mean they prioritize others’ happiness over their own, but that’s just who they are—natural helpers and harmonizers. Plusle and Minun remind us of the power of connection and the beauty of being someone else’s biggest fan.
+
+### Pachirisu (Gen 4)
+- **Type**: <span style="color: #fc3;">Electric</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #de4f7a;">Pearl</span>**: It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.
+  * **<span style="color: black;">Black</span>/<span style="color: #9797ab;">White</span>**: A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.
+- **Traits**: Hyperactive, playful, fearless
+- **Notes**: Pachirisu’s are the embodiment of carefree joy, radiating an energetic and playful spirit that inspires those around them. They live in the moment, refusing to let overthinking weigh them down. Their spontaneity and quick thinking make them great at coming up with creative solutions on the fly, tackling challenges with a mix of ingenuity and enthusiasm. While they may seem lighthearted on the surface, Pachirisu’s are fiercely determined when it truly counts, stepping up when the stakes are high. Their lively, creative nature allows them to navigate life with a blend of fun and resilience, reminding us that a little spark of joy can go a long way when facing adversity.
+
+### Emolga (Gen 5)
+- **Type**: <span style="color: #fc3;">Electric</span>, <span style="color: #89f;">Flying</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: black;">Black</span>**: The energy made in its cheeks' electric pouches is stored inside its membranes and released while it is gliding.
+  * **<span style="color: #db8624;">Sun</span>**: It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike.
+  * **<span style="color: #c03028;">Shield</span>**: This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can't fly properly.
+- **Traits**: Adventurous, manipulative, gluttonous, independent
+- **Notes**: Emolga’s adventurous spirit and ability to glide set it apart from other pika-clones, embodying a strong sense of independence. Its soaring ambitions often make it seem unapproachable, as if it’s always aiming for something just out of reach. However, Emolga’s mischievous antics—like stealing berries or playfully shocking its friends—are often misunderstood. While it might appear selfish or gluttonous, these actions stem from its playful and carefree nature rather than malice. Deep down, Emolga craves connection, even if it struggles to show vulnerability. Those who take the time to understand Emolga will discover a fiercely loyal and loving companion, whose high-flying aspirations inspire those around it to dream big. Emolga teaches us that independence and a mischievous streak don’t mean someone doesn’t care—they just express their affection in their own unique way.
+
+### Dedenne (Gen 6)
+- **Type**: <span style="color: #fc3;">Electric</span>,<span style="color: #e9e;">Fairy</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #db8624;">Ultra Sun</span>**: It sneaks into people’s homes and steals electricity from their outlets. When your electric bill seems off, it’s the handiwork of this rascal.
+  * **<span style="color: #9621a1;">Violet</span>**: Dedenne emit electrical waves from the whiskers on their cheeks to communicate with each other. When low on electricity, they curl up and sleep.
+- **Traits**: Sociable, innocent, wholesome, clever
+- **Notes**: Dedenne’s small and unassuming appearance hides a clever and resourceful nature. While it may seem shy or reserved, Dedenne has a quiet intelligence that allows it to navigate challenges with surprising ingenuity—like sneaking electricity to power itself. Its innocence and wholesomeness make it endearing, often winning over others with its gentle demeanor. Dedenne’s sociable side shines when it’s with close friends, using its unique ability to emit electrical waves for communication, fostering a sense of connection. Though it may avoid the spotlight, Dedenne thrives in environments where it feels safe and supported. It teaches us that strength isn’t always loud or bold—sometimes it’s in the quiet, thoughtful actions that make a difference. Dedenne is a reminder that even the most sensitive souls can be remarkably resourceful when it matters most.
+
+### Togedemaru (Gen 7)
+- **Type**: <span style="color: #fc3;">Electric</span>, <span style="color: #aab;">Steel</span>
+- **Pokedex Entry(s)**:
+  * **<span style="color: #db8624;">Sun</span>**: The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.
+  * **<span style="color: #c03028;">Shield</span>**: When it’s in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.
+- **Traits**: Reserved, stubborn, resilient
+- **Notes**: Togedemaru’s spiny, defensive exterior mirrors its reserved and cautious nature. While it may seem distant or unapproachable, this is a reflection of its timid personality and a desire to protect itself. Togedemaru has a strong sense of self-preservation, often curling up into its protective shell when faced with challenges or uncertainty. However, beneath the spikes lies a longing for connection and companionship. Togedemaru struggles with letting its guard down, as it fears vulnerability might lead to hurt. Despite this, it is deeply resilient and fiercely loyal to those who earn its trust. Togedemaru reminds us that setting boundaries is not a sign of weakness—it’s a way to create safe spaces for meaningful relationships. It shows that even the most guarded individuals are capable of love and connection when given patience and understanding.
+
+### Mimikyu? (Gen 7)
+- **Type**: <span style="color: #66b;">Ghost</span>, <span style="color: #e9e;">Fairy</span>
+- **Pokedex Entry(s)**:
+  * **Busted**
+    - **<span style="color: #db8624;">Ultra Sun</span>**: It stands in front of a mirror, trying to fix its broken neck as if its life depended on it. It has a hard time getting it right, so it’s crying inside.
+    - **<span style="color: #5d81d6;">Sword</span>**: There will be no forgiveness for any who reveal that it was pretending to be Pikachu. It will bring the culprit down, even at the cost of its own life.
+    - **<span style="color: #9621a1;">Violet</span>**: It has taken damage and can no longer hold the head of its cloth disguise upright. For as long as it lives, Mimikyu will never forget its attacker.
+
+  * **Disguised**
+    - **<span style="color: #7038f8;">Moon</span>**: A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
+    - **<span style="color: #db8624;">Ultra Sun</span>**: Although it’s a quiet, lonely Pokémon, if you try to look at what’s under its rag, it will become agitated and resist violently.
+- **Traits**: Misunderstood, resourceful, lonely
+- **Notes**: Mimikyu is a deeply misunderstood Pokémon, hiding its true self beneath a makeshift Pikachu disguise in a desperate attempt to connect with others. Its loneliness drives its creativity and resourcefulness, fashioning a persona that it hopes will bring it closer to those it admires. However, its fragile heart and fear of rejection make it extremely protective of its disguise. Mimikyu’s tendency to lash out when its secrets are exposed is a reflection of the deep pain and vulnerability it carries beneath its rag. Despite this, Mimikyu is fiercely loyal to those who accept it for who it truly is, even if it struggles to show its gratitude openly. Mimikyu reminds us of the importance of empathy and the lengths some will go to in search of love and belonging. It teaches us that even the most hidden hearts deserve kindness and understanding.
+
+### Morpeko (Gen 8)
+- **Type**: <span style="color: #fc3;">Electric</span>, <span style="color: #754;">Dark</span>
+- **Pokedex Entry(s)**:
+  * **Full Belly**
+    - **<span style="color: #c03028;">Shield</span>**: It carries electrically roasted seeds with it as if they’re precious treasures. No matter how much it eats, it always gets hungry again in short order.
+  * **Hangry**
+    - **<span style="color: #5d81d6;">Sword</span>**: Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.
+    - **<span style="color: #c03028;">Shield</span>**: Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.
+- **Traits**: Moody, impulsive, determined
+- **Notes**: Morpeko is the rebel of the pika-clones, embodying a more alternative, counter-culture personality. Its constant hunger and mood swings make it impulsive and unpredictable, but this also reflects its refusal to conform to expectations. Morpeko thrives on doing things its own way, unapologetically embracing its quirks and complexities. In its Full Belly mode, Morpeko shows its softer, more determined side, treasuring even the smallest things in life. However, when pushed into its Hangry mode, its darker, more chaotic side emerges, driven by raw emotion and intensity. Morpeko’s dual nature makes it a symbol of resilience and individuality, reminding us that it’s okay to embrace every facet of who we are—even the messy parts. It’s a pika-clone for those who go against the grain, challenging norms while staying true to themselves.
+
+### Pawmi/Pawmo/Pawmot (Gen 9)
+- **Type**: <span style="color: #fc3;">Electric</span>, <span style="color: #b54;">Fighting</span>
+- **Pokedex Entry**:
+  * **Pawmi**
+    - **<span style="color: #9621a1;">Violet</span>**:	The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.
+  * **Pawmo**
+    - **<span style="color: #a12721;">Scarlet</span>**: When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.
+  * **Pawmot**
+    - **<span style="color: #a12721;">Scarlet</span>**: This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.
+
+- **Traits**: Brave, tenacious, protective
+- **Notes**: The Pawmi line is all about heart—it starts small and a little shaky, but grows into a fearless protector. Pawmi has an endearing awkwardness, standing unsteadily as it figures out how to use its electric powers. By the time it becomes Pawmo, it’s the one you’d want in your corner: brave, loyal, and always ready to leap to your defense. Then there’s Pawmot, the powerhouse of the trio—slow to react at first, but once it’s in the zone, nothing can stop it. The Pawmi line reminds us that strength doesn’t come all at once; it’s something you grow into by protecting what matters to you. These pika-clones are for people who may start off unsure of themselves, but through courage and grit, become the strongest versions of themselves. They’re the type who might surprise you with how much fight they’ve got when the stakes are high.
+
+## Other Online Personality Quizzes
+
+### [Toastology](https://aureliasindhu.github.io/Toastology/index.html)
+
+- **What I Like:**
+  - Cute and unique toast theme to represent personality
+  - Very simple UI landing page:
+    - Navbar at the top with only 3 options:
+      - Bakery
+        - Home page
+      - Menu
+        - Shows you list of all possible toasts
+      - About
+        - Gives quick little contact cards of each of the developers 
+        - Gotta plug yourself!
+  - Progress bar when taking the quiz to know how far you are
+  - Questions are built off of eachother creating a sense of progression/story
+  - Only two answer choices for each question
+    - Keeps the quiz simple and less wordy
+  - Questions are simple
+  - Option to restart at the end
+- **Other thoughts:**
+  - This was the main project that motivated me to do my first NextJS project
+    - Simple, cute, and inspired
+  - One critique:
+    - The content of the Bakery and Menu pages are so centered with lots of margin on the sides, but the quiz questions/answers span across the whole page
+
+- **Quiz Results:**
+  - Tuna Salad Toast
+    - Unique and Empathetic
+
+- **Relative Questions:**
+  - As you stroll down Toasty Street, the irresistible smell of freshly baked goods draws you to the coolest bakery in Toastown. Inside, you see the display case showing all sorts of toast with tasty toppings. You approach the counter, torn between two options
+    - You ask the employee for the today's special
+    - Quietly checking out the toast options on your own
+
+
+
+### [PMD Quiz](https://nrosa01.github.io/pmd-quiz-online/)
+
+- **What I Like:**
+  - Very faithful to the quiz in the original games
+    - Features the same music that plays
+    - Same dynamic and colorful background
+  - An option to take a short and long version of the quiz
+  - Questions are relatively simple
+    - Ex. What's your studying style?
+  - Answers are also simple
+    - Fewer words to read
+    - Still cover different personality types
+    - Ex. In response to "What's your studying style?":
+      - "Working hard, every day"
+      - "If I remember to..."
+      - "I just cover what I need to."
+      - "I can't really do it alone."
+  - Some questions only have 2 answers, at most 3
+
+- **Other thoughts:**
+  - Option to turn off the music? :(
+  - While it is a quiz to find out what "Pokemon" you are, the first thing the quiz does after answers are completed is assign you a "nature"
+    - ex. You are "The Calm Type!"
+      - quiz then lists some positive traits you may encompass
+      - quiz offers a weakness for you to look out for
+
+- **Quiz Results:**
+  - The Hardy Type!-You're so determined! You don't whine or feel sorry for yourself, and you never need help with anything...
+  - You also have a strong sense of responsibility...
+  - You work toward your goals steadily and never require attention along the way...
+  - Your resilient spirit is the only thing you need to guide you toward your goals...
+  - But be careful! You risk wearing yourself out if you work too long all your own! You should recognize that sometimes you need help from friends...
+  - So, a hardy, determiend type like you...
+  - Torchic/Treecko
+
+- **Relative Questions:**
+  - Do you rather play outside or inside?
+    - Outside
+    - Inside
+  - You want to reveal that you like someone a whole bunch! What do you do?
+    - Show it a little by playing together
+    - Make it obvious by... playing a prank!
+    - State it clearly for all to hear!
+    - Keep it to myself! It's too risky!
+  - You have a really import test tommorow! What do you do?
+    - Study all night long.
+    - Wing it! I'm sure it will be fine!
+    - Test?! I think I have a fever...
+
+### [Political Compass](https://www.politicalcompass.org/test)
+
+- **What I Like:**
+  - Answer choices are simple:
+    - Strongly agree, agree, disagree, strongly disagree
+  - Pagination to let you know your progress
+  - Option to take the quiz in multiple languages
+
+- **Other thoughts:**
+  - Too political
+  - Too many ads
+
+- **Quiz Results:**
+  - Economic Left/Right: -4.75
+  - Social Libertarian/Authoritatiran: -3.95
+  
+- **Relative Questions:**
+  - It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.
+    - Strongly disagree
+    - Disagree
+    - Agree
+    - Strongly agree
+  - An eye for an eye and a tooth for a tooth.
+    - Strongly disagree
+    - Disagree
+    - Agree
+    - Strongly agree
+  - It’s natural for children to keep some secrets from their parents.
+    - Strongly disagree
+    - Disagree
+    - Agree
+    - Strongly agree
+  - When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.
+    - Strongly disagree
+    - Disagree
+    - Agree
+    - Strongly agree
+
+### [16 Personalities (MBTI)](https://www.16personalities.com/free-personality-test)
+
+- **Relative Questions:**
+  - You usually feel more persuaded by what resonates emotionally with you than by factual arguments.
+  - Even a small mistake can cause you to doubt your overall abilities and knowledge.
+  - You feel comfortable just walking up to someone you find interesting and striking up a conversation.
+  - You are not too interested in discussions about various interpretations of creative works.
+  - You actively seek out new experiences and knowledge areas to explore.
+  - You cannot imagine yourself writing fictional stories for a living.
+  - Your personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.
+
+- **Quiz Results:**
+  - Meidator INFP-T
+  - As an INFP (Mediator), you possess a rich inner world brimming with imagination, empathy, and idealism. Your compassionate nature and deep-seated desire to understand the human experience make you a natural confidant and source of support for those around you. You approach life with a sense of wonder, always seeking meaning and authenticity in your experiences and relationships.
+  - Your creativity is a wellspring of inspiration, often manifesting in unique ideas and innovative solutions to complex problems. However, this same creativity can sometimes lead you to become lost in daydreams, making it challenging to navigate the more practical aspects of life. You have a profound capacity for empathy, allowing you to connect with others on a deep, almost intuitive level.
+
+- **What I like:**
+  - Answers are really agree, disagree, or in-between
+  - Questions cover a variety of different themes:
+    - extraverted vs introvert
+    - organized vs. disorganized
+    - overthinking vs. simple-minded
+    - facts vs. feelings
+
+- **Other thoughts:**
+  - Classic test
+
+### []()
+
+- **Relative Questions:**
+  -
+
+- **Quiz Results:**
+  -
+
+- **What I like:**
+  -
+
+- **Other thoughts:**
+  -
+
+  

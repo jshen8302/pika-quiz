@@ -1,0 +1,58 @@
+---
+title: Pika-Quiz Notes
+format: html
+---
+
+# Questions
+
+- You've got a long drive ahead of you. What album sounds best for the road?
+    - Smooth jazz
+        - Emolga
+        - Pichu
+    - Alternative rock
+        - Togdemaru
+        - Mimikyu
+    - Rap
+        - Morpeko
+        - Pawmo
+    - Indie/pop
+        - Dedenne
+        - Plusle/Minun
+    - Throwback classics!
+        - Pikachu
+        - Pachirisu
+
+- Good morning! What's for breakfast?
+    - Eggs with breakfast meat!
+        - Pikachu
+        - Pawmo
+    - Pancakes. Stack em high!
+        - Morpeko
+        - Emolga
+        - Pichu
+    - Acai bowl
+        - Pachirisu
+    - Quick bagel or toast
+        - Togdemaru
+        - Mimikyu
+    - Running on coffee
+        - Plusle/Minun
+        - Dedenne
+
+- You go to the theatre. Which movie are you watching?
+    - Anything with guns, sex, or violence!
+        - Morpeko
+        - Pachirisu
+    - Something animated like Cars 3
+        - Pawmo
+        - Pichu
+    - Horror movie
+        - Mimikyu
+        - Dedenne
+    - Sad, romantic
+        - Plusle/Minun
+        - Emolga
+    - Something funny like The Hangover
+        - Pikachu
+        - Togdemaru
+    

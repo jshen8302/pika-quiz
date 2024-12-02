@@ -1,0 +1,129 @@
+
+.customHTML, .customBody {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Set the height of the root elements to 100% */
+  display: flex;
+  flex-direction: column;
+}
+
+.customBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Makes the body fill the remaining vertical space */
+  background-color: #FFE095;
+
+}
+
+.customMain {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Ensures it takes all the remaining height */
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.customNav {
+
+  flex: 1;
+  display: flex;
+  font-size: 35px;
+}
+
+.leftNav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+}
+
+.binaryImage {
+  border-radius: 25px;
+  margin-left: 2rem;
+}
+
+.midNav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+}
+
+.iframeContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.iframe {
+  border: none;
+  width: 100%;
+  height: calc(100vh - 60px); /* Subtract the height of your navbar */
+  margin-top: 5rem; /* Offset to match navbar height */
+
+}
+
+.rightNav {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+
+}
+
+.navbar {
+  
+  position: fixed; /* Fixes the navbar to a specific position */
+  top: 0; /* Position at the top of the viewport */
+  left: 0; /* Align with the left edge of the viewport */
+  width: 100%; /* Span the full width of the page */
+  height: 5.5rem; /* Fixed height for the navbar */
+  background-color: #FFA920;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space out items horizontally */
+
+}
+
+
+.pikaQuizTitle {
+
+  display: flex;
+  justify-content: center;
+  font-size: 90px;
+
+
+}
+
+.whichPikaClone {
+
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.heroImage {
+  width: 95%;
+  height: auto;
+}
+
+.startButton {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
