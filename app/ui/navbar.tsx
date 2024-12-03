@@ -2,40 +2,40 @@ import styles from '@/app/ui/home.module.css';
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function Navbar() {
   return (
-    <div className={styles.navbar}>
-      <nav className={styles.customNav}>
-        <div className={styles.leftNav}>
-          <Image
-            src="/binary.jpeg"
-            width={50}
-            height={50}
-            className={`hidden md:block ${styles.binaryImage}`}
-            alt="Screenshots of the dashboard project showing desktop version"
-          />
-          
+    <nav className="flex bg-navColor w-full h-20 px-6">
+      <div className="flex flex-1  items-center">
+        <Image
+          src="/binary.jpeg"
+          width={50}
+          height={50}
+          className={` object-cover rounded-full`}
+          alt="Screenshots of the dashboard project showing desktop version"
+        />
+        
 
+      </div>
+      <div className="flex flex-1 items-center justify-evenly text-3xl">
+        <Link href="/">
+          Home
+        </Link>
+        <div>
+          Pikadex
         </div>
-        <div className={styles.midNav}>
-          <Link href="/">
-            Home
-          </Link>
-          <div>
-            Pikadex
-          </div>
-          <Link href="/notes">
-            Notes
-          </Link>
+        <Link href="/notes">
+          Notes
+        </Link>
 
 
-        </div>
-        <div className={styles.rightNav}>
-  
+      </div>
+      <div className="flex flex-1 items-center justify-center">
+        
 
-        </div>
-      </nav>
-    </div>
+
+      </div>
+    </nav>
 
   );
 }
