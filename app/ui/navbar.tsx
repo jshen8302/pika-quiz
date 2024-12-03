@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="flex bg-navColor w-full h-20 px-6">
+    <nav className="flex bg-navColor w-full h-20 px-6 text-black">
       <div className="flex flex-1  items-center">
         <Image
           src="/binary.jpeg"

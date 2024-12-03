@@ -21,7 +21,7 @@ export default function RootLayout({
       <body>
         <div className={clsx(vt323.className, "flex h-screen flex-col bg-red-500")}>
           <Navbar/>
-          <div className="flex flex-col flex-1 pb-24 max-w-3xl m-auto">
+          <div className="bg-pageColor flex flex-col flex-1 text-black">
             {children}
 
           </div>

@@ -3,13 +3,13 @@ import styles from '@/app/ui/home.module.css';
 
 const NotePage = () => {
   return (
-    <div className={styles.iframeContainer}>
+
       <iframe
-        className={styles.iframe}
+        className={"h-full"}
         src="/notes/notes.html"
         title="Pika-Quiz Notes"
       ></iframe>
-    </div>
+
   );
 };
 

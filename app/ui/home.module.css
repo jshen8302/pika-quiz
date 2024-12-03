@@ -51,18 +51,18 @@
 }
 
 .iframeContainer {
-  height: 100vh;
+
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex: grow;
+
 
 }
 
 .iframe {
   border: none;
   width: 100%;
-  height: calc(100vh - 60px); /* Subtract the height of your navbar */
-  margin-top: 5rem; /* Offset to match navbar height */
+  height: max-content;
 
 }
 
