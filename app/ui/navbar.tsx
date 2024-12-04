@@ -1,4 +1,3 @@
-import styles from '@/app/ui/home.module.css';
 import Image from 'next/image'
 import Link from 'next/link'
 

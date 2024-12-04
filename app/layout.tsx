@@ -1,7 +1,6 @@
 import Navbar from '@/app/ui/navbar';
 import { VT323 } from 'next/font/google';
 import clsx from 'clsx';
-import styles from '@/app/ui/home.module.css';
 import "./globals.css";
 
 

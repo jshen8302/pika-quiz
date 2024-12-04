@@ -1,5 +1,4 @@
 import React from "react";
-import styles from '@/app/ui/home.module.css';
 
 const NotePage = () => {
   return (
