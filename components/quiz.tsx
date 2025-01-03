@@ -163,7 +163,7 @@ const Page = () => {
             return (
               <>
                 <Image
-                  src={`/${highestPikaClone}-icon.jpg`} // Dynamically construct the image path
+                  src={`/${highestPikaClone.toLowerCase()}-icon.jpg`} // Dynamically construct the image path
                   width={500}
                   height={500}
                   className="w-64 h-64 object-cover aspect-square border-solid border-x-4 border-y-4 rounded-lg"
