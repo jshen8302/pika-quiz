@@ -13,11 +13,11 @@ export default function Navbar() {
           src="/binary.jpeg"
           width={50}
           height={50}
-          className="object-cover rounded-full"
+          className="object-cover rounded-full md: w-3/4"
           alt="Logo"
         />
       </div>
-      <div className="flex flex-1 items-center justify-center gap-10 md:gap-20 text-2xl md:text-3xl">
+      <div className="flex flex-1 items-center justify-center gap-5 md:gap-20 text-2xl md:text-3xl">
         <button
           className="text-black"
           onClick={() => router.push('/')} // Navigate to Home

@@ -126,12 +126,12 @@ const Page = () => {
     <div className="min-h-screen flex flex-col flex-grow items-center justify-center">
       {!showResult ? (
         <div className="flex flex-col-reverse flex-grow justify-center w-min-3xl gap-4">
-         <div className="bg-[#3840A3] text-white max-w-2xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
+         <div className="bg-[#3840A3] text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
           {questions[activeQuestion].question}
          </div>
          <div className="flex">
           <div className="flex-1"></div>
-          <div className="bg-[#3840A3] flex flex-col text-white max-w-2xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
+          <div className="bg-[#3840A3] flex flex-col text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
             {questions[activeQuestion]?.answers.map((answer,idx) => (
             <li 
               key={idx} 
@@ -153,7 +153,7 @@ const Page = () => {
         
       ) : (
         <div className="p-24 flex flex-1 flex-col items-center justify-center gap-10">
-          <div className="bg-[#3840A3] text-white max-w-3xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
+          <div className="bg-[#3840A3] text-white max-w-sm md:max-w-3xl text-2xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
             You must be...
           </div>
           {(() => {
@@ -170,7 +170,7 @@ const Page = () => {
                   alt={`Your pika-clone result: ${highestPikaClone}`}
                 />
                 <div className="bg-[#3840A3] text-white max-w-3xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
-                  <span className="font-bold">{highestPikaClone}!</span>
+                  <span>{highestPikaClone}!</span>
                 </div>
               </>
             );
@@ -195,7 +195,7 @@ const Page = () => {
           </div>
           <button
             onClick={() => resetQuiz()}
-            className="text-4xl hover:text-gray-400"
+            className="text-3xl md:text-4xl hover:text-gray-400"
           >
             retry
           </button>
