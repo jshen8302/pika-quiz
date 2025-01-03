@@ -255,18 +255,261 @@ With the introduction of the infamous mascot of the Pokémon franchise, <span st
 - **Other thoughts:**
   - Classic test
 
-### []()
+### [Template]()
 
 - **Relative Questions:**
-  -
+  - Text
 
 - **Quiz Results:**
-  -
+  - Text
 
 - **What I like:**
-  -
+  - Text
 
 - **Other thoughts:**
-  -
+  - Text
 
+## Quiz Design
+### Overview
+The quiz logic we decided to choose was loosely based off the original implementation of the personality quiz in Pokemon Mystery Dungeon games. The user will answer around 8-15 questions where each answer choice will eventually lead toward a certain pika-clone and be recorded. Once the user has completed the quiz, the quiz will tally up all the answer choices and return which pika-clone had the highest number of associated answers. Originally, I had thought to design the quiz so that each question will have around 5 different answers which the 10 pika-clones would be directly divided amongst. However, my friend Wyatt suggested a system where each answer was instead weighted with certain personality traits or "attributes" rather than the pika-clone itself. This is similar to the original PMD implementation where each answer choice would lean towards 1 or 2 of the 13 possible personalities or "natures" (i.e.,Hardy,Docile,Brave,etc.) and assign a point value that varied depending on how closely related the nature is to that response. 
+
+- Ex.
+  - Question #3 When the going gets tough, do you get going?
+  - Answers:
+    - Yes. (+2 Hardy, +2 Brave)
+    - No. (+2 Sassy, +2 Quirky)
+
+The original PMD quiz searches for which nature had the highest amount of points, and then returns the Pokemon that is associated with that nature. 
+
+- Ex.
+  - Male(Left List) Female(Right List)
+  - Hardy: Charmander | Pikachu
+  - Docile: Bulbasaur | Chikorita
+  - Brave: Machop | Charmander
+  - Jolly: Squirtle | Totodile
+  - Impish: Pikachu | Cubone
+  - Naive: Totodile | Eevee
+  - Timid: Cyndaquil | Mudkip
+  - Hasty: Torchic | Skitty
+  - Sassy: Treecko | Torchic
+  - Calm: Mudkip | Bulbasaur
+  - Relaxed: Psyduck | Squirtle
+  - Lonely: Cubone | Psyduck
+  - Quirky: Meowth | Treecko
+
+However, rather than making each nature/attribute assigned to one or two pokemon, we wanted to make it so that each pika-clone will be comprised of multiple natures/attributes. This nuance should allow for the pika-clones to be more dimensional. The total points scored across all of a pika-clones associated nature/attributes will determine the weight of that pika-clone. The quiz will ultimately then compare which pika-clone socred the most points across all of its associated nature/attributes. 
+
+#### [Source](https://forums.serebii.net/threads/pmd-personality-quiz-guide.165994/)
+
+### Attributes
+- Pokemon Mystery Dungeons
+  - Male(Left List) Female(Right List)
+  - Hardy: Charmander | Pikachu
+  - Docile: Bulbasaur | Chikorita
+  - Brave: Machop | Charmander
+  - Jolly: Squirtle | Totodile
+  - Impish: Pikachu | Cubone
+  - Naive: Totodile | Eevee
+  - Timid: Cyndaquil | Mudkip
+  - Hasty: Torchic | Skitty
+  - Sassy: Treecko | Torchic
+  - Calm: Mudkip | Bulbasaur
+  - Relaxed: Psyduck | Squirtle
+  - Lonely: Cubone | Psyduck
+  - Quirky: Meowth | Treecko
+- Wyatt's Implementation
+  - A: Energetic/Fun
+  - B: Adventurous/Bold
+  - C: Quirky/Offbeat
+  - D: Supportive/Socialable
+  - E: Mysterious/Shy
+  - F: Playful/Dynamic
+  - G: Curious/Inquisitive
+  - H: Calm/Serene
+  - I: Competitive/Determined
+  - J: Loyal/Protective
+  - K: Strong/Resilient
+  - L: Clever/Resourceful
+  - M: Independent/Free-Spirited
+  - N: Natural/Harmonious
+- Assignment
+  - Pikachu: ABDFJK (6)
+  - Pichu: AFGIN (5)
+  - Plusle/Minun: ACDFJ (5)
+  - Pachirisu: AFILN (5)
+  - Emolga: ABFGLM (6)
+  - Dedenne: CEGHLN (6)
+  - Togedemaru: CEGJKL (6)
+  - Mimikyu: CEFJLM (6)
+  - Morpeko: ABCFIM (6)
+  - Pawmot: BDFHJN (6)
+
+### Questions
+
+**Q1**: You've got a long drive ahead of you. WHat kind of album sounds best for the road?
+**Answers**:
+  - Smooth jazz
+    - +2 Curious/Inquisitive (G)
+    - +1 Independent/Free-spirited (M)
+    - +1 Clever/Resourceful (L)
+  - Alternative rock
+    - +2 Mysterious/Shy (E)
+    - +1 Competitive/Determined (I)
+    - +1 Adventurous/bold (B)
+  - Rap
+    - +2 Competitive/Determined (I)
+    - +1 Strong/Resilient (K)
+    - +1 Energetic/Fun (A)
+  - Indie/pop
+    - +2 Calm/Serene (H)
+    - +1 Natural/Harmonious (N)
+    - +1 Loyal/Protective (J)
+  - Throwback classics!
+    - +2 Quirky/Offbeat (C)
+    - +2 Playful/Dynamic (F)
+    - +1 Supportive/Social (D)
+
+**Q2**: Good morning! What's for breakfast?
+**Answers**:
+  - Eggs with breakfast meat!
+    - +2 Loyal/Protective (J)
+    - +1 Strong/Resilient (K)
+  - Pancakes. Stack em high!
+    - +2 Energetic/fun (A)
+    - +1 Adventurous/Bold (B)
+    - +2 Curious/Inquisitive (G)
+  - Acai bowl with fruits and berries
+    - +2 Natural/Harmonious (N)
+    - +1 Calm/Serene (H)
+    - +1 Supportive/Sociable (D)
+    - +2 Quirky/Offbeat (C)
+  - Quick bagel or toast
+    - +2 Clever/Resourceful (L)
+    - +2 Quirky/Offbeat (C)
+    - +1 Competitive/Determined (I)
+  - Running on coffee~
+    - +2 Mysterious/Shy (E)
+    - +2 Independent/Free-Spirited (M)
+
+**Q3**: "You go to the theatre. Which move are you watching?"
+**Answers**:
+  - "Action-packed blockbusters!"
+    - +2 Energetic/Fun (A)
+    - +1 Competitive/Determined (I)
+  - "Animated films"
+    - +2 Quirky/Offbeat (C)
+    - +1 Curious/Inquisitive (G)
+  - "Horror. I want to get spooked"
+    - +2 Adventurous/Bold (B)
+    - +1 Mysterious/Shy (E)
+  - "Romantic dramas"
+    - +1 Supportive/Sociable (D)
+    - +1 Calm/Serene (H)
+    - +2 Loyal/Protective (J)
+  - "Comedy with Jonah Hill"
+    - +2 Playful/Dynamic (F)
+    - +1 Clever/Resoureful (L)
+
+  **Q4**: "What's your favorite type of weather?"
+  **Answers**:
+    - "Sunny and warm"
+      - +2 Energetic/Fun (A)
+      - +1 Supportive/Sociable (D)
+    - "Rainy and cozy"
+      - +2 Loyal/Protective (J)
+      - +1 Calm/Serene (H)
+    - "Cool and breezy"
+      - +2 Clever/Resourceful (L)
+      - +1 Natural/Harmonious (N)
+      - +1 Independent/Free-spirited (M)
+    - "Stormy and dramatic"
+      - +2 Competitive/Determined (I)
+      - +1 Adventurous/Bold (B)
+      - +1 Playful/Dynamic (F)
+    - "Snowy and magical"
+      - +2 Quirky/Offbeat (C)
+      - +1 Curious/Inquisitive (G)
+
+**Q5**: "Which hobby soudns most appealing to you?"
+**Answers**:
+  - "Painting/drawing"
+    - +2 Independent/Free-Spirited (M)
+    - +1 Calm/Serene (H)
+    - +1 Natural/Harmonious (N)
+  - "Exploring nature"
+    - +2 Adventurous/Bold (B)
+    - +1 Curious/Inquisitive (G)
+  - "Playing team sports"
+    - +2 Energetic/Fun (A)
+    - +1 Supportive/Sociable (D)
+    - +1 Competitive/Determined (I)
+  - "Solving puzzles"
+    - +2 Clever/Resourceful (L)
+    - +1 Quirky/Offbeat (C)
+  - "Dancing/performing"
+    - +2 Playful/Dynamic (F)
+    - +1 Energetic/Fun (A)
+    - +1 Independent/Free-Spirited (M)
+
+**Q6**: "How do you prefer to handle challenges?"
+**Answers**:
+  - "Tackle it head-on and power through!"
+    - +2 Competitive/Determined (I)
+    - +1 Strong/Resilient (K)
+  - "Analyze the situation carefully before taking action"
+    - +2 Clever/Resourceful (L)
+    - +1 Curious/Inquisitive (G)
+  - "Seek advice and support from others"
+    - +2 Supportive/Sociable (D)
+    - +1 Loyal/Protective (J)
+  - "Try a creative or unconventional solution"
+    - +2 Independent/Free-Spirited (M)
+    - +1 Quirky/Offbeat (C)
+  - "Take it slow and steady, no need to rush"
+    - +2 Calm/Serene (H)
+    - +1 Natural/Harmonious (N)
+
+**Q7**: "What would be your ideal date?"
+**Answers**:
+  - "A quiet dinner at a fancy restaurant"
+    - +2 Mysterious/Shy (E)
+    - +1 Calm/Serene (H)
+    - +1 Loyal/protective (J)
+  - "A thrilling outdoor adventure (like hiking!)"
+    - +2 Adventurous/Bold (B)
+    - +1 Competitive/Determied (I)
+    - +1 Strong/Resilient (K)
+  - "Go see a band live! I wanna mosh!"
+    - +2 Independent/Free-Spirited (M)
+    - +1 Playful/Dynamic (F)
+  - "Let's just stay in and watch YouTube videos"
+    - +2 Quirky/Offbeat (C)
+    - +1 Clever/Resourceful (L)
+  - "Go to an art museum or a theater"
+    - +2 Curious/Inquisitive (G)
+    - +1 Supportive/Sociable (D)
+    - +1 Natural/harmonious (N)
+
+**Q8**: "How do you prefer to resolve conflicts?"
+**Answers**:
+  - "Head-on with clear communication and action"
+    - Adventurous/Bold (B)
+    - Strong/Resilient (K)
+  - "I try to avoid conflict whenever possible"
+    - Quirky/Offbeat (C)
+    - Mysterious/Shy (N)
+  - "I listen to both sides and find a compromise"
+    - Supportive/Sociable (D)
+    - Calm/Serene (H)
+  - "I take a break and give myself time to think"
+    - Clever/Resourceful (L)
+    - Independent/Free-spirited (M)
+  - "I usually just crash out instead..."
+    - Playful/Dynamic (F)
+    - Competitive/Determined (I)
+
+
+
+  
+  
   

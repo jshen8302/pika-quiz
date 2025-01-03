@@ -4,7 +4,7 @@ const NotePage = () => {
   return (
 
       <iframe
-        className={"h-full"}
+        className={"h-full mt-20"}
         src="/notes/notes.html"
         title="Pika-Quiz Notes"
       ></iframe>

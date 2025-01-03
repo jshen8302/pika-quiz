@@ -4,9 +4,13 @@ import React, { useState } from 'react';
 import  quiz  from '../data/data.js';
 import Image from 'next/image';
 
+interface Attribute {
+  key: string;
+  weight: number;
+}
 interface Answer {
   text: string;
-  pikaClone: string[];
+  attributes: Attribute[];
 }
 
 interface Question {
@@ -24,40 +28,68 @@ type Counters = {
   [key: string]: number;
 };
 
+const pikaclones = {
+  Pikachu: ['A','B','D','F','J','K'],
+  Pichu: ['A','F','G','I','N'],
+  Twins: ['A','C','D','F','J'],
+  Pachirisu: ['A','F','I','L','N'],
+  Emolga: ['A','B','F','G','L','M'],
+  Dedenne: ['C','E','G','H','L','N'],
+  Togedemaru: ['C','E','G','J','K','L'],
+  Mimikyu: ['C','E','F','J','L','M'],
+  Morpeko: ['A','B','C','F','I','M'],
+  Pawmot: ['B','D','F','H','J','N'],
+};
+
+const initializeCounters = () => {
+  const keys = [
+    'A', 'B', 'C', 'D', 'E', 'F',
+    'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
+  ];
+  const counters: Counters = {};
+  keys.forEach((key) => {
+    counters[key] = 0;
+  });
+  return counters;
+};
+
 const Page = () => {
   const [activeQuestion,setActiveQuestion] = useState(0)
   const [showResult, setShowResult] = useState(false)
   const [counters, setCounters] = useState<Counters>({
-    pikachu: 0,
-    pichu: 0,
-    twins: 0,
-    pachirisu: 0,
-    emolga: 0,
-    dedenne: 0,
-    togedemaru: 0,
-    mimikyu: 0,
-    morpeko: 0,
-    pawmo: 0,
+    A: 0,
+    B: 0,
+    C: 0,
+    D: 0,
+    E: 0,
+    F: 0,
+    G: 0, 
+    H: 0,
+    I: 0,
+    J: 0,
+    K: 0,
+    L: 0,
+    M: 0,
+    N: 0,
       
   })
 
 
   const {questions} = quiz as QuizData;
-  const {answers} = questions[activeQuestion];
 
   // select and check answer and move to the next question
 
   const onAnswerSelected = (answer: Answer) => {
 
     const updatedCounters = {...counters};
-    answer.pikaClone.forEach((pika) => {
-      if (updatedCounters[pika.toLowerCase()] !== undefined) {
-        updatedCounters[pika.toLowerCase()] += 1;
-      }
+
+    answer.attributes.forEach((attribute) => {
+        updatedCounters[attribute.key] += attribute.weight;
     });
+
     setCounters(updatedCounters);
 
-    if (activeQuestion !== questions.length-1) {
+    if (activeQuestion < questions.length-1) {
       setActiveQuestion((prev) => prev + 1);
     } 
     else {
@@ -65,35 +97,21 @@ const Page = () => {
     }
 
 
-  }
+  };
 
-  const getHighestPikaClone = (counters: Counters): string => {
-    // get the maximum count
-    const maxCount = Math.max(...Object.values(counters));
-
-    const tiedPikaClones = Object.entries(counters)
-    .filter(([, count]) => count === maxCount)
-    .map(([pika]) => pika)
-
-    // tie, return a random pikaclone
-    const randomIndex = Math.floor(Math.random() * tiedPikaClones.length);
-    return tiedPikaClones[randomIndex];
+  const calculatePikacloneScores = () => {
+    const pikacloneScores: { [key: string]: number } = {};
+    for (const [pikaclone, attributes] of Object.entries(pikaclones)) {
+      pikacloneScores[pikaclone] = attributes.reduce(
+        (sum, attr) => sum + (counters[attr] || 0),
+        0
+      );
+    }
+    return pikacloneScores;
   }
 
   const resetQuiz = () => {
-    setCounters({
-      pikachu: 0,
-      pichu: 0,
-      twins: 0,
-      pachirisu: 0,
-      emolga: 0,
-      dedenne: 0,
-      togedemaru: 0,
-      mimikyu: 0,
-      morpeko: 0,
-      pawmo: 0,
-
-    });
+    setCounters(initializeCounters());
     setShowResult(false);
     setActiveQuestion(0);
 
@@ -102,7 +120,7 @@ const Page = () => {
   
 
 
-
+  const pikacloneScores = calculatePikacloneScores();
 
   return (
     <div className="min-h-screen flex flex-col flex-grow items-center justify-center">
@@ -114,7 +132,7 @@ const Page = () => {
          <div className="flex">
           <div className="flex-1"></div>
           <div className="bg-[#3840A3] flex flex-col text-white max-w-2xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
-            {answers.map((answer,idx) => (
+            {questions[activeQuestion]?.answers.map((answer,idx) => (
             <li 
               key={idx} 
               onClick={() => onAnswerSelected(answer)}
@@ -134,20 +152,14 @@ const Page = () => {
 
         
       ) : (
-        <div className="min-h-screen flex flex-col flex-grow items-center justify-center gap-10">
+        <div className="p-24 flex flex-1 flex-col items-center justify-center gap-10">
           <div className="bg-[#3840A3] text-white max-w-3xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
             You must be...
           </div>
           {(() => {
-            const highestPikaClone = getHighestPikaClone(counters); // Get the highest pika-clone
-
-            const firstLetter = highestPikaClone.charAt(0)
-
-            const firstLetterCap = firstLetter.toUpperCase()
-
-            const remainingLetters = highestPikaClone.slice(1)
-
-            const capitalizedPikaClone = firstLetterCap + remainingLetters
+            const highestPikaClone = Object.keys(pikacloneScores).reduce((a,b) => 
+              pikacloneScores[a] > pikacloneScores[b] ? a : b 
+          );
             return (
               <>
                 <Image
@@ -158,11 +170,29 @@ const Page = () => {
                   alt={`Your pika-clone result: ${highestPikaClone}`}
                 />
                 <div className="bg-[#3840A3] text-white max-w-3xl text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
-                  <span className="font-bold">{capitalizedPikaClone}!</span>
+                  <span className="font-bold">{highestPikaClone}!</span>
                 </div>
               </>
             );
           })()}
+          <div className="bg-gray-200 p-4 text-black">
+            <h2 className="text-xl font-bold">Counters:</h2>
+            <ul>
+              {Object.entries(counters).map(([key, value]) => (
+                <li key={key}>
+                  {key}: {value}
+                </li>
+              ))}
+            </ul>
+            <h2 className="text-xl font-bold mt-4">PikaClone Scores:</h2>
+            <ul>
+              {Object.entries(pikacloneScores).map(([pikaclone, score]) => (
+                <li key={pikaclone}>
+                  {pikaclone}: {score}
+                </li>
+              ))}
+            </ul>
+          </div>
           <button
             onClick={() => resetQuiz()}
             className="text-4xl hover:text-gray-400"
