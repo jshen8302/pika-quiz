@@ -7,13 +7,13 @@ export default function Navbar() {
   const router = useRouter(); // Next.js router for programmatic navigation
 
   return (
-    <nav className="flex bg-navColor w-full min-h-20 md:min-h-20 px-6 text-black fixed">
+    <nav className="flex bg-navColor w-full min-h-20 md:min-h-20 px-6 text-black fixed flex-shrink-0">
       <div className="flex flex-1 items-center">
         <Image
           src="/binary.jpeg"
           width={50}
           height={50}
-          className="object-cover rounded-full md: w-3/4"
+          className="rounded-full flex w-50 h-50"
           alt="Logo"
         />
       </div>
