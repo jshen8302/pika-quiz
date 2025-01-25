@@ -150,7 +150,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
           <>
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
-                src="/dedenne-card.webp"
+                src="/dedenne-card.png"
                 width={320}
                 height={208}
                 className="object-cover"
@@ -194,7 +194,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
           <>
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
-                src="/mimikyu-card.webp"
+                src="/mimikyu-card.png"
                 width={320}
                 height={208}
                 className="object-cover"
@@ -282,7 +282,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
           <>
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
-                src="/pawmot-card.png"
+                src="/pawmot-card.jpeg"
                 width={320}
                 height={208}
                 className="object-cover"
