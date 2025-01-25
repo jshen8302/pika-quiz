@@ -14,6 +14,14 @@
   }
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -24,12 +32,11 @@ html {
   font-family: 'VT323', monospace;
 }
 
-dialog {
-  background-color: red;
-}
+
 
 dialog::backdrop {
   background-color: rgba(0,0,0,0.5);
+  
 
 
 }

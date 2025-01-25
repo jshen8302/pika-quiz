@@ -157,13 +157,13 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
 
   return (
 
-      <div className="flex flex-col w-96 h-60 rounded-3xl scale-125 overflow-hidden">
+      <div className="flex flex-col w-64 md:w-96 md:h-60 rounded-3xl scale-125 overflow-hidden">
         <div className="flex bg-red-200 h-4/6">
           <div className="flex justfy-center w-2/3 overflow-hidden">
             {renderImageById()}
           </div>
           <div className="bg-[#D8F793] w-1/3">
-            <p className="px-2">
+            <p className="px-2 text-white bg-red-500">
               No. {pikaclone.id}
             </p>
             <p className="px-2">
@@ -174,8 +174,11 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
           </div>
 
         </div>
-        <div className="flex bg-[#A0CA92] h-1/3">
-          {pikaclone.text}
+        <div className="flex bg-[#A0CA92] h-1/3 ">
+          <div className="px-4 py-3 text-sm ">
+            {pikaclone.text}
+
+          </div>
             
         </div>
 

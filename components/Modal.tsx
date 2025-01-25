@@ -66,7 +66,7 @@ const Modal = ({children}: ModalProps) => {
 
     <dialog
       ref={modalRef}
-      className={clsx(vt323.className, "fixed flex justify-center items-center h-3/4 w-3/4 bg-transparent")}
+      className={clsx(vt323.className, "fixed w-3/4 h-3/4 flex justify-center items-center bg-transparent")}
     >
       
       {children}
