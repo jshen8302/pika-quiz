@@ -308,7 +308,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
     }
   }
   return (
-    <div className="flex flex-col text-2xl bg-orange-400 rounded-3xl overflow-hidden h-64 w-80 hover:scale-105">
+    <div className="flex flex-col text-2xl bg-orange-400 rounded-3xl overflow-hidden h-56 w-64 hover:scale-105">
       {renderCardById()}
     </div>
   );
