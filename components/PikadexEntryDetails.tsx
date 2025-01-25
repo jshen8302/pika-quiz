@@ -6,6 +6,7 @@ type PikadexEntryDetailsProps = {
     
 }
 
+
 const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
   const pikaclone = getPikaclone(id);
 
@@ -38,7 +39,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
       case "311":
         return (
           <Image
-            src="/plusle-card.jpg"
+            src="/plusle-card.png"
             width={450}
             height={350}
             className="object-cover"
@@ -78,7 +79,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
       case "702":
         return (
           <Image
-            src="/dedenne-card.webp"
+            src="/dedenne-card.png"
             width={450}
             height={350}
             className="object-cover"
@@ -88,7 +89,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
       case "777":
         return (
           <Image
-            src="/togedemaru-card.jpg"
+            src="/togedemaru-card.png"
             width={450}
             height={350}
             className="object-cover scale-105"
@@ -98,7 +99,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
       case "778":
         return (
           <Image
-            src="/mimikyu-card.webp"
+            src="/mimikyu-card.png"
             width={450}
             height={350}
             className="object-cover"
@@ -138,7 +139,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
       case "923":
         return (
           <Image
-            src="/pawmot-card.png"
+            src="/pawmot-card.jpeg"
             width={450}
             height={350}
             className="object-cover"
