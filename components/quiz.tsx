@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
-import  quiz  from '../data/data.js';
+import  {quiz}  from '../data/data.js';
 import Image from 'next/image';
 
 interface Attribute {

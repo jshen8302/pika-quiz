@@ -334,6 +334,14 @@ const quiz = {
   ]
 
 
-}
+};
 
-export default quiz;
+const getAllQuestions = () => {
+  return quiz.questions;
+};
+
+const getQuestion = (id) => {
+  return quiz.questions.find((question) => question.id === id);
+};
+
+export {getAllQuestions, getQuestion, quiz};
