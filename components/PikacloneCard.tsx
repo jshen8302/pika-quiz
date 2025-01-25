@@ -16,11 +16,11 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
       case "25":
         return (
           <>
-            <div className="flex flex-1 bg-orange-600">
+            <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pikachu-card-4.png"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Pikachu Dex Card"
               />
@@ -41,8 +41,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pichu-card-3.jpg"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Pichu Dex Card"
               />
@@ -63,8 +63,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/plusle-card.jpg"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Plusle Dex Card"
               />
@@ -85,9 +85,9 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/minun-card.png"
-                width={450}
-                height={350}
-                className="w object-cover"
+                width={400}
+                height={300}
+                className="object-cover"
                 alt="Minun Dex Card"
               />
             </div>
@@ -107,9 +107,9 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pachirisu-card-3.jpg"
-                width={450}
-                height={350}
-                className="w object-cover"
+                width={400}
+                height={300}
+                className="object-cover"
                 alt="Pachirisu Dex Card"
               />
             </div>
@@ -129,8 +129,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/emolga-card.jpg"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Emolga Dex Card"
               />
@@ -151,8 +151,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/dedenne-card.webp"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Dedenne Dex Card"
               />
@@ -173,8 +173,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/togedemaru-card.jpg"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Togedemaru Dex Card"
               />
@@ -195,9 +195,9 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/mimikyu-card.webp"
-                width={450}
-                height={350}
-                className="w object-cover"
+                width={400}
+                height={300}
+                className="object-cover"
                 alt="Mimikyu Dex Card"
               />
             </div>
@@ -217,9 +217,9 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/morpeko-card.png"
-                width={450}
-                height={350}
-                className="w object-cover"
+                width={400}
+                height={300}
+                className="object-cover"
                 alt="Morpeko Dex Card"
               />
             </div>
@@ -239,8 +239,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pawmi-card.png"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Pawmi Dex Card"
               />
@@ -261,8 +261,8 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pawmo-card.png"
-                width={450}
-                height={350}
+                width={400}
+                height={300}
                 className="object-cover"
                 alt="Pawmo Dex Card"
               />
@@ -283,9 +283,9 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
                 src="/pawmot-card.png"
-                width={450}
-                height={350}
-                className="w object-cover"
+                width={400}
+                height={300}
+                className="object-cover"
                 alt="Pawmot Dex Card"
               />
             </div>
