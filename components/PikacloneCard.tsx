@@ -62,7 +62,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
           <>
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
-                src="/plusle-card.jpg"
+                src="/plusle-card.png"
                 width={320}
                 height={208}
                 className="object-cover"
@@ -172,7 +172,7 @@ export default function PikacloneCard({pikaclone}: PikacloneCardProps) {
           <>
             <div className="flex flex-1 bg-orange-600 overflow-hidden">
               <Image
-                src="/togedemaru-card.jpg"
+                src="/togedemaru-card.png"
                 width={320}
                 height={208}
                 className="object-cover"
