@@ -157,7 +157,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
 
   return (
 
-      <div className="flex flex-col w-64 md:w-96 md:h-60 rounded-3xl scale-125 overflow-hidden">
+      <div className="flex flex-col w-72 md:w-96 md:h-60 rounded-3xl scale-125 overflow-hidden">
         <div className="flex bg-red-200 h-4/6">
           <div className="flex justfy-center w-2/3 overflow-hidden">
             {renderImageById()}

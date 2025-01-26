@@ -41,6 +41,11 @@ dialog::backdrop {
 
 }
 
+dialog {
+  padding: 0; 
+  overflow: visible;
+}
+
 body.no-scroll {
   overflow: hidden;
 }
