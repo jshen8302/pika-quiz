@@ -11,7 +11,7 @@ const vt323 = VT323({
   subsets: ['latin'],
   weight: '400'
 });
-
+  
 interface ModalProps {
   children: ReactNode;
 }
@@ -66,7 +66,7 @@ const Modal = ({children}: ModalProps) => {
 
     <dialog
       ref={modalRef}
-      className={clsx(vt323.className, "fixed w-3/4 h-3/4 flex justify-center items-center bg-transparent")}
+      className={clsx(vt323.className, "fixed inset-0 w-screen h-screen flex justify-center items-center bg-transparent")}
     >
       
       {children}
