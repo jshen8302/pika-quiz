@@ -1,5 +1,6 @@
 import { getPikaclone } from "@/data/pikaclones"
 import Image from 'next/image';
+import clsx from 'clsx';
 
 type PikadexEntryDetailsProps = {
   id: string;
@@ -154,11 +155,33 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
     )
   }
 
+  const renderTypeColors = (type: string) => {
+    switch (type) {
+      case "Electric":
+        return "bg-yellow-400";
+      case "Flying":
+        return "bg-blue-400";
+      case "Fairy":
+        return "bg-pink-400";
+      case "Steel":
+        return "bg-gray-400";
+      case "Ghost":
+        return "bg-purple-400";
+      case "Dark":
+        return "bg-indigo-500";
+      case "Fighting":
+        return "bg-red-600";
+      default:
+        return "bg-black";
+    }
+
+  };
+
 
   return (
 
       <div className="flex flex-col w-72 md:w-96 md:h-60 rounded-3xl scale-125 overflow-hidden">
-        <div className="flex bg-red-200 h-4/6">
+        <div className="flex bg-red-200 h-4/6 text-sm">
           <div className="flex justfy-center w-2/3 overflow-hidden">
             {renderImageById()}
           </div>
@@ -166,8 +189,26 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
             <p className="px-2 text-white bg-red-500">
               No. {pikaclone.id}
             </p>
-            <p className="px-2">
+            <p className="px-2 font-semibold text-lg">
               {pikaclone.name}
+            </p>
+            <p className="px-1 text-black">
+              {pikaclone.type.map((t: string, index: number) => (
+                <span key={index} className={clsx(renderTypeColors(t), "mr-2 p-1 rounded-md")}>
+                  {t}
+                </span>
+              ))}
+            </p>
+            <p className="px-2">
+              {pikaclone.classification} Pokemon
+            </p>
+            <p className="px-2">
+              Height {pikaclone.height}
+
+            </p>
+            <p className="px-2">
+              Weight {pikaclone.weight}
+              
             </p>
             
         

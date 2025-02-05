@@ -2,7 +2,7 @@ import Quiz from '../../components/quiz';
 
 export default function Page() {
   return (
-    <div>
+    <div className="">
       <Quiz/>
     </div>
   )}

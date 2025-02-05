@@ -24,7 +24,7 @@ export default function HomePage() {
         />
       </div>
       <div className="flex justify-center text-2xl md:text-4xl">
-        <button className="hover:text-gray-400" onClick={() => router.push('/quiz')}>start</button>
+        <button className="hover:text-gray-400 active:text-gray-500" onClick={() => router.push('/quiz')}>start</button>
       </div>
     </main>
   );

@@ -53,6 +53,22 @@ const initializeCounters = () => {
   return counters;
 };
 
+function shuffleQuiz(questions: Question[]) { 
+  const shuffled = [...questions];
+  let m = shuffled.length, t, i;
+
+  while (m) {
+    i = Math.floor(Math.random() * m--);
+
+    t = shuffled[m];
+    shuffled[m] = shuffled[i];
+    shuffled[i] = t;
+  }
+
+  return shuffled;
+
+}
+
 const Page = () => {
   const [activeQuestion,setActiveQuestion] = useState(0)
   const [showResult, setShowResult] = useState(false)
@@ -74,8 +90,10 @@ const Page = () => {
       
   })
 
-
-  const {questions} = quiz as QuizData;
+  const [questions, setQuestions] = useState<Question[]>(() => {
+    const quizzy = quiz as QuizData;
+    return shuffleQuiz([...quizzy.questions]);
+  })
 
   // select and check answer and move to the next question
 
@@ -114,6 +132,7 @@ const Page = () => {
     setCounters(initializeCounters());
     setShowResult(false);
     setActiveQuestion(0);
+    setQuestions(shuffleQuiz([...quiz.questions]))
 
   }
 
@@ -123,20 +142,20 @@ const Page = () => {
   const pikacloneScores = calculatePikacloneScores();
 
   return (
-    <div className="min-h-screen flex flex-col flex-grow items-center justify-center">
+    <div className=" min-h-screen flex flex-col flex-grow items-center justify-center">
       {!showResult ? (
         <div className="flex flex-col-reverse flex-grow justify-center w-min-3xl gap-4">
-         <div className="bg-[#3840A3] text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
+         <div className="transition duration-700 ease-in-out shadow-xl bg-[#3840A3] text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
           {questions[activeQuestion].question}
          </div>
          <div className="flex">
           <div className="flex-1"></div>
-          <div className="bg-[#3840A3] flex flex-col text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
+          <div className="shadow-xl bg-[#3840A3] flex flex-col text-white max-w-sm md:max-w-2xl text-xl md:text-4xl border-solid border-x-4 border-y-4 rounded-lg px-8 py-3">
             {questions[activeQuestion]?.answers.map((answer,idx) => (
             <li 
               key={idx} 
               onClick={() => onAnswerSelected(answer)}
-              className='hover:bg-gray-200 hover:text-gray-800 cursor-pointer list-none'
+              className='hover:bg-gray-200 hover:text-gray-800 active:bg-gray-500 cursor-pointer list-none'
             >
               <span className="">{answer.text}</span>
             </li>

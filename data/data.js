@@ -1,5 +1,5 @@
 const quiz = {
-  totalQuestions: 5,
+  totalQuestions: 7,
   questions: [
     {
       id: 1,
@@ -54,7 +54,7 @@ const quiz = {
       question: "Good morning! What's for breakfast?",
       answers: [
         {
-          text: "Eggs with breakfast meat!", 
+          text: "Eggs with breakfast meat.", 
           attributes: [
             {key: 'J', weight: 2},
             {key: 'K', weight: 1},
@@ -319,11 +319,200 @@ const quiz = {
             {key: 'D', weight: 1},
             {key: 'N', weight: 1},
           ]
-
         },
       ]
 
     },
+    {
+      id: 8,
+      question: "Which role do you usually assume when playing team games?",
+      answers: [
+        {
+          text: "Tank",
+          attributes: [
+            {key: 'B', weight: 2},
+            {key: 'K', weight: 1},
+            {key: 'J', weight: 1},
+          ]
+        },
+        {
+          text: "DPS",
+          attributes: [
+            {key: 'I', weight: 2},
+            {key: 'M', weight: 1},
+          ]
+        },
+        {
+          text: "Support",
+          attributes: [
+            {key: 'N', weight: 2},
+            {key: 'E', weight: 1},
+            {key: 'L', weight: 1},
+          ]
+        },
+        {
+          text: "I'll play fill",
+          attributes: [
+            {key: 'D', weight: 2},
+            {key: 'G', weight: 1},
+          ]
+        },
+        
+      ]
+    },
+    {
+      id: 9,
+      question: "You find a 20 dollar bill on the ground. Do you pick it up?",
+      answers: [
+        {
+          text: "Yes. Finders keepers.",
+          attributes: [
+            {key: 'G', weight: 2},
+            {key: 'I', weight: 1},
+          ]
+        },
+        {
+          text: "Leave it for someone else.",
+          attributes: [
+            {key: 'D', weight: 2},
+            {key: 'H', weight: 1},
+          ],
+        },
+        {
+          text: "Abandoned money is bad juju.",
+          attributes: [
+            {key: 'C', weight: 2},
+            {key: 'N', weight: 1},
+          ],
+        },
+      ]
+    },
+    {
+      id: 10,
+      question: "It's party time! What's the vibe?",
+      answers: [
+        {
+          text: "You love to mingle and have a good time",
+          attributes: [
+            {key: 'A', weight: 2},
+            {key: 'B', weight: 1},
+            {key: 'D', weight: 1},
+          ]
+        },
+        {
+          text: "Stick with the people you know.",
+          attributes: [
+            {key: 'E', weight: 2},
+            {key: 'J', weight: 1},
+            {key: 'H', weight: 1},
+          ]
+        },
+        {
+          text: "You drift in and out of conversations until it's time to leave",
+          attributes: [
+            {key: 'F', weight: 2},
+            {key: 'L', weight: 1},
+            {key: 'M', weight: 1},
+          ]
+        },
+        {
+          text: "You wore a costume (even though nowhere on the invitation said it was a costume party...",
+          attributes: [
+            {key: 'C', weight: 2},
+            {key: 'M', weight: 1},
+          ]
+        },
+        {
+          text: "You are more concerned about the snacks",
+          attributes: [
+            {key: 'I', weight: 2}
+          ]
+        }
+      ]
+    },
+    {
+      id: 11,
+      question: "Where is your ideal place to study?",
+      answers: [
+        {
+          text: "A lively coffee shop",
+          attributes: [
+            {key: 'G', weight: 2},
+            {key: 'N', weight: 2},
+          ]
+        },
+        {
+          text: "The quiet floor of the library",
+          attributes: [
+            {key: 'H', weight: 2},
+            {key: 'I', weight: 2},
+          ]
+        },
+        {
+          text: "In my room",
+          attributes: [
+            {key: 'E', weight: 2},
+            {key: 'J', weight: 2},
+          ]
+        },
+        {
+          text: "I don't study",
+          attributes: [
+            {key: 'C', weight: 2},
+            {key: 'B', weight: 2},
+          ]
+        },
+        {
+          text: "With friends",
+          attributes: [
+            {key: 'D', weight: 2},
+            {key: 'A', weight: 1},
+          ]
+        },
+
+      ]
+    },
+    {
+      id: 12,
+      question: "Which Kanye album best represents you?",
+      answers: [
+        {
+          text: "The College Dropout",
+          attributes: [
+            {key: 'A', weight: 2},
+            {key: 'L', weight: 1},
+          ]
+        },
+        {
+          text: "808's & Heartbreak",
+          attributes: [
+            {key: 'J', weight: 2},
+            {key: 'D', weight: 1},
+          ]
+        },
+        {
+          text: "My Beautiful Dark Twisted Fantasy",
+          attributes: [
+            {key: 'B', weight: 2},
+            {key: 'I', weight: 1},
+          ]
+        },
+        {
+          text: "The Life of Pablo",
+          attributes: [
+            {key: 'F', weight: 2},
+            {key: 'G', weight: 1},
+          ]
+        },
+        {
+          text: "Ye",
+          attributes: [
+            {key: 'E', weight: 2},
+            {key: 'C', weight: 1,}
+          ]
+        },
+      ]
+    }
 
 
 

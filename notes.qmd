@@ -396,7 +396,7 @@ However, rather than making each nature/attribute assigned to one or two pokemon
   - "Action-packed blockbusters!"
     - +2 Energetic/Fun (A)
     - +1 Competitive/Determined (I)
-  - "Animated films"
+  - "Something introspective like Whiplash"
     - +2 Quirky/Offbeat (C)
     - +1 Curious/Inquisitive (G)
   - "Horror. I want to get spooked"
@@ -507,6 +507,127 @@ However, rather than making each nature/attribute assigned to one or two pokemon
   - "I usually just crash out instead..."
     - Playful/Dynamic (F)
     - Competitive/Determined (I)
+
+**Q9**: "Which role do you usually assume when playing team games?"
+**Answers**:
+  - "Tank"
+    - +2 Adventurous/Bold (B)
+    - +1 Strong/Resilient (K)
+    - +1 Loyal/Protective (J)
+  - "DPS"
+    - +1 Independent/Free-Spirited (M)
+    - +2 Competitive/Determined (I)
+  - "Support"
+    - +2 Natural/Harmonious (N)
+    - +1 Mysgerious/Shy (E)
+    - +1 Clever/Resourceful (L)
+  - "I'll just fill"
+    - +2 Supportive/Sociable (D)
+    - +1 Curious/Inquisitive (G)
+
+**Q10**: "You find a 20 dollar bill on the ground. Do you pick it up?"
+**Answers**:
+  - "Yes. Finders keepers."
+    - +2 Curious/Inquisitive (G)
+    - +1 Competitve/Determined (I)
+  - "Leave it for someone else."
+    - +2 Supportive/Socialble (D)
+    - +1 Calm/Serene (H)
+  - "Abandoned money is bad juju."
+    - +1 Quirky/Offbeat (C)
+    - +1 Natural/Harmonious (N)
+
+
+**Q11**: "It's party time! What's the vibe?"
+**Answers**: 
+  - "You love to mingle and have a good time"
+    - +2 Energetic/Fun (A)
+    - +1 Adventurous/Bold (B)
+    - +1 Supportive/Sociable (D)
+  - "Stick with the people you know."
+    - +2 Mysterious/Shy (E)
+    - +1 Loyal/Protective (J)
+    - +1 Calm/Serene (H)
+  - "You drift in and out conversations until it's time to leave"
+    - +2 Playful/Dynamic (F)
+    - +1 Clever/Resourceful (L)
+    - +1 Independent/Free-Spirited (M)
+  - "You wore a costume (even though nowhere on the invitation said it was a costume party...)"
+    - +2 Quirky/Offbeat (C)
+    - +1 Independent/Free-Spirited (M)
+  - "You are more concerned about the snacks"
+    - +2 Competitive/Determined (I)
+
+**Q12**: "You've got a huge exam coming up! What's your plan?"
+**Answers**:
+  - "Start a week in advance! I like to be well prepared."
+    - 
+  - "I'll wing it."
+    - Independent/Free-Spirited
+  - "Dedicate a day to the library and listen to lofi."
+
+**Q13**: "Where is your ideal place to study?"
+**Answers**:
+  - "A lively coffee shop"
+    - +2 Curious/Inquisitive (G)
+    - +1 Natural/Harmonious (N)
+  - "The quiet floor of the library"
+    - +2 Calm/Serene (H)
+    - +1 Competitive/Determined (I)
+  - "In my room"
+    - +2 Mysterious/Shy (E)
+    - +1 Loyal/Protective (J)
+  - "I don't study"
+    - +2 Quirky/Offbeat
+    - +1 Adventurous/Bold (B)
+  - "With friends"
+    - +2 Supportive/Sociable (D)
+    - +1 Energetic/Fun
+
+**Q14**: "What type of energy drink best represents you?"
+**Answers**:
+  - "Red bull"
+    - Energetic/Fun
+  - "Silver Monster Energy"
+    - Adventurous/Bold
+  - "Celsius"
+    - Quirky/Offbeat
+  - "Coffee/Espresso"
+  - "Tea"
+
+**Q15**: "You and your friends start up a new minecraft survival world. What do you do first?"
+  - "Make your base look as nice as possible"
+  - "Choose one direction and just keep running"
+  - "Cave exploring!"
+  - ""
+
+**Q16**: "Which Kanye album best represents you?"
+**Answers**:
+  - "The College Dropout"
+    - +2 Energetic/Fun (A)
+    - +1 Clever/Resourceful (L)
+  - "808s & Heartbreak"
+    - +2 Loyal/Protective (J)
+    - +1 Supportive/Sociable (D)
+  - "My Beautiful Dark Twisted Fantasy"
+    - +2 Adventurous/Bold (B)
+    - +1 Competitive/Determined (I)
+  - "The Life of Pablo"
+    - Playful/Dynamic
+    - Quirky/Offbeat
+    - Curious/Inquisitive
+  - "Ye"
+    - Mysterious/Shy
+    - Independent/Free-Spirited
+
+**Q17**: "How do you self-care?"
+**Answers**:
+  - "Gym/workout"
+  - "Art"
+  - "Watch my favorite shows"
+
+**Q18**: "What subject is most interesting to you"
+
 
 
 
