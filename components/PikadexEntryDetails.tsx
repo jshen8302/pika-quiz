@@ -181,32 +181,32 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
   return (
 
       <div className="flex flex-col w-72 md:w-96 md:h-60 rounded-3xl scale-125 overflow-hidden">
-        <div className="flex bg-red-200 h-4/6 text-sm">
+        <div className="flex bg-red-200 h-4/6 text-xs">
           <div className="flex justfy-center w-2/3 overflow-hidden">
             {renderImageById()}
           </div>
           <div className="bg-[#D8F793] w-1/3">
-            <p className="px-2 text-white bg-red-500">
+            <p className="px-1.5 text-white bg-red-500">
               No. {pikaclone.id}
             </p>
-            <p className="px-2 font-semibold text-lg">
+            <p className="px-1.5 text-lg">
               {pikaclone.name}
             </p>
-            <p className="px-1 text-black">
+            <p className="px-1.5 text-black text-xs">
               {pikaclone.type.map((t: string, index: number) => (
-                <span key={index} className={clsx(renderTypeColors(t), "mr-2 p-1 rounded-md")}>
+                <span key={index} className={clsx(renderTypeColors(t), "mr-1 py-1 rounded-md")}>
                   {t}
                 </span>
               ))}
             </p>
-            <p className="px-2">
+            <p className="py-1 px-1.5 flex">
               {pikaclone.classification} Pokemon
             </p>
-            <p className="px-2">
+            <p className="px-1.5">
               Height {pikaclone.height}
 
             </p>
-            <p className="px-2">
+            <p className="px-1.5">
               Weight {pikaclone.weight}
               
             </p>
@@ -216,7 +216,7 @@ const PikadexEntryDetails = ({id}: PikadexEntryDetailsProps) => {
 
         </div>
         <div className="flex bg-[#A0CA92] h-1/3 ">
-          <div className="px-4 py-3 text-sm ">
+          <div className="px-4 py-2 text-sm ">
             {pikaclone.text}
 
           </div>

@@ -500,7 +500,7 @@ However, rather than making each nature/attribute assigned to one or two pokemon
     - Mysterious/Shy (N)
   - "I listen to both sides and find a compromise"
     - Supportive/Sociable (D)
-    - Calm/Serene (H)
+    - Calm/Serene (H) 
   - "I take a break and give myself time to think"
     - Clever/Resourceful (L)
     - Independent/Free-spirited (M)
@@ -578,11 +578,11 @@ However, rather than making each nature/attribute assigned to one or two pokemon
     - +2 Mysterious/Shy (E)
     - +1 Loyal/Protective (J)
   - "I don't study"
-    - +2 Quirky/Offbeat
+    - +2 Quirky/Offbeat (C)
     - +1 Adventurous/Bold (B)
   - "With friends"
     - +2 Supportive/Sociable (D)
-    - +1 Energetic/Fun
+    - +1 Energetic/Fun (A)
 
 **Q14**: "What type of energy drink best represents you?"
 **Answers**:
@@ -613,12 +613,12 @@ However, rather than making each nature/attribute assigned to one or two pokemon
     - +2 Adventurous/Bold (B)
     - +1 Competitive/Determined (I)
   - "The Life of Pablo"
-    - Playful/Dynamic
-    - Quirky/Offbeat
-    - Curious/Inquisitive
+    - +2 Playful/Dynamic (F)
+    - +1 Curious/Inquisitive (G)
   - "Ye"
-    - Mysterious/Shy
-    - Independent/Free-Spirited
+    - +2 Mysterious/Shy (E)
+    - +1 Quirky/Offbeat (C)
+
 
 **Q17**: "How do you self-care?"
 **Answers**:
